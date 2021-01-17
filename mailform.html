@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CoffeeLab</title>
+    <link rel="icon" href="favicon2.ico">
+
+    <link rel="stylesheet" href="css2/formscss.css">
+  </head>
+  <body>
+    <section>
+  <div class="container">
+    <form action="mailto:vid.barbaro@gmail.com" method="POST" id="my-form">
+
+      <div class="form-group">
+        <label for="firstName"> First Name</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+
+      <div class="form-group">
+        <label for="latsName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+
+      <div class="form-group">
+        <select name="coffees" id="coffee">
+          <option value="espresso">Espresso</option>
+          <option value="cappuccino">Cappuccino</option>
+          <option value="latte">Latte</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Message and room number</label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+          <button type="submit" class="btn btn-outline-light btn-lg download-button">Submit</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+  </body>
+</html>
